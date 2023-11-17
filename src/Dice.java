@@ -10,7 +10,7 @@ public class Dice {
         Random r = new Random();
         int MIN = 1;
         int MAX = 6;
-        return r.nextInt(MAX +1- MIN) + MIN;
+        return r.nextInt(MAX + 1 - MIN) + MIN;
     }
 
 }

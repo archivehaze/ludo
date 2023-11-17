@@ -3,11 +3,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        // create board
-        Board board = new Board();
-        board.createBoard();
+        Game game = new Game(4);
 
-        Player newPlayer = new Player();
-        newPlayer.printTokenPos();
+        game.startGame();
+        game.playGame();
+
     }
 }
